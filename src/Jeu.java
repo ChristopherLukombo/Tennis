@@ -80,7 +80,7 @@ public class Jeu {
 		else if(nbPointB>=4 && nbPointB==nbPointA+1) return "avantage joueur 2";
 		else if(nbPointA>=4 && nbPointA>nbPointB+1) return "jeu joueur 1";
 		else if(nbPointB>=4 && nbPointB>nbPointA+1) return "jeu joueur 2";
-		else return "Il y a un probl�me dans mon programme (ce cas ne devrait jamais se produire)";
+		else return "Il y a un problème dans mon programme (ce cas ne devrait jamais se produire)";
 	}
 
 }
