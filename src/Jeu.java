@@ -75,7 +75,7 @@ public class Jeu {
 		else if (nbPointA==3 && nbPointB==0) return "40-0";
 		else if (nbPointA==3 && nbPointB==1) return "40-15";
 		else if (nbPointA==3 && nbPointB==2) return "40-30";
-		else if (nbPointA>=3 && nbPointA==nbPointB) return "�galit�";
+		else if (nbPointA>=3 && nbPointA==nbPointB) return "égalité";
 		else if(nbPointA>=4 && nbPointA==nbPointB+1) return "avantage joueur 1";
 		else if(nbPointB>=4 && nbPointB==nbPointA+1) return "avantage joueur 2";
 		else if(nbPointA>=4 && nbPointA>nbPointB+1) return "jeu joueur 1";
